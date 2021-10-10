@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+<img src='https://github.com/Josimar-Victoria/spotify-clone-app/blob/main/Captura%20de%20pantalla%20de%202021-10-10%2016-28-12.png?raw=true' alt='imagl'/>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
