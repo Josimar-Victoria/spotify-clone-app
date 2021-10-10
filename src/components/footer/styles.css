@@ -1,8 +1,73 @@
-.footer{
-    position: fixed;
-    bottom: 0;
-    height: 65px;
-    width: 100%;
-    background-color: #282828;
-    padding: 20px;
+.footer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  padding: 20px;
+  height: 65px;
+  width: 100%;
+  background-color: #282828;
+}
+
+.footer__right * .MuiSlider-root {
+  color: rgb(164, 145, 199);
+}
+.footer__left {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 300px;
+  flex: 0.3;
+}
+
+.footer__green {
+  color: rgb(164, 145, 199);
+}
+
+.footer__center {
+  flex: 0.4;
+  max-width: 300px;
+  padding: 0 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__icon:hover,
+.footer__green:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+  -webkit-transition: transform 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out;
+  -ms-transition: transform 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out;
+  -webkit-transform: scale(1.2) !important;
+  -moz-transform: scale(1.2) !important;
+  -ms-transform: scale(1.2) !important;
+  -o-transform: scale(1.2) !important;
+}
+
+.footer__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  flex: 0.3;
+}
+
+.footer_albumLogo {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.footer__songInfo > h4 {
+  margin-bottom: 5px;
+}
+
+.footer__songInfo > p {
+  font-size: 12px;
 }
